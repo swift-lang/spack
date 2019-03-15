@@ -106,9 +106,9 @@ class Hypre(Package):
 
         if 'superlu-dist' in self.spec:
             configure_args.append('--with-dsuperlu-include=%s' %
-                spec['superlu-dist'].prefix.include)
+                                  spec['superlu-dist'].prefix.include)
             configure_args.append('--with-dsuperlu-lib=%s' %
-                spec['superlu-dist'].libs)
+                                  spec['superlu-dist'].libs)
             configure_args.append('--with-dsuperlu')
 
         if '+debug' in self.spec:
