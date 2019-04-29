@@ -16,7 +16,7 @@ class Turbine(AutotoolsPackage):
     configure_directory = 'turbine/code'
 
     version('develop', branch='master')
-    version('1.2.3', 'f2e393c292c4248b4e77a19f8272ae88')
+    version('1.2.3', '028f6f4f5041e5ffbbf3ab8008e3b781')
     version('1.2.1', 'c8976b22849aafe02a8fb4259dfed434')
     version('1.1.0', '9a347cf16df02707cb529f96c265a082')
 
